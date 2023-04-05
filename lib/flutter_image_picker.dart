@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 
+export 'package:image_picker/image_picker.dart';
+
 class FlutterImagePicker {
   ///if return is empty string there was an error in picking the image
   Future<String> pickImage({
