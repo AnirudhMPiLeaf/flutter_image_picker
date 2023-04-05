@@ -6,7 +6,7 @@ import 'package:image_picker/image_picker.dart';
 
 class FlutterImagePicker {
   ///if return is empty string there was an error in picking the image
-  Future<String> pickImage({
+  static Future<String> pickImage({
     required ImageSource source,
     int? imageQuality = 100,
   }) async {
